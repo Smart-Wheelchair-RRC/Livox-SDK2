@@ -48,18 +48,18 @@ Livox SDK2 communication protocol opens to all users. It is the communication pr
 2. Install the **CMake** using apt:
 
 ```shell
-$ sudo apt install cmake
+sudo apt install cmake
 ```
 
 3. Compile and install the Livox-SDK2:
 
 ```shell
-$ git clone https://github.com/Livox-SDK/Livox-SDK2.git
-$ cd ./Livox-SDK2/
-$ mkdir build
-$ cd build
-$ cmake .. && make -j
-$ sudo make install
+git clone https://github.com/Livox-SDK/Livox-SDK2.git
+cd ./Livox-SDK2/
+mkdir build
+cd build
+cmake .. && make -j
+sudo make install
 ```
 
 **Note :**  
@@ -68,8 +68,8 @@ The generated shared library and static library are installed to the directory o
 Tips: Remove Livox SDK2:
 
 ```shell
-$ sudo rm -rf /usr/local/lib/liblivox_lidar_sdk_*
-$ sudo rm -rf /usr/local/include/livox_lidar_*
+sudo rm -rf /usr/local/lib/liblivox_lidar_sdk_*
+sudo rm -rf /usr/local/include/livox_lidar_*
 ```
 
 ## 2.3 Instruction for Windows 10
